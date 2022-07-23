@@ -28,6 +28,7 @@ const downloadRef = useRef(null)
 - Vercel
 
 <h3>Link to site:</h3>
+https://gif-maker1-thatgirldorian.vercel.app/
 
 
 <h3>Screenshare:</h3>
