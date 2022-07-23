@@ -1,3 +1,40 @@
+# gif-maker
+This is a tool that allows you to upload a video and then convert it to a GIF. It's built with React JS, WASM and the FFmpeg library for video processing. I also used Tailwind CSS for styling the UI. 
+
+
+<h3>Issues faced & resolution:</h3>
+I did not know how to add automatic downloads at first, but I was able to do this by creating a useRef in React to access an anchor tag and have it automatically download the converted GIF afterwards. I did it by adding this to my code:
+
+```
+const downloadRef = useRef(null)
+
+//Allow converted GIFs to download automatically
+  useEffect(()=>{
+    if(gif){
+      downloadRef.current.click()
+    }
+  },[gif])
+
+```
+
+                
+
+<h3>Technology used:</h3>
+
+- HTML
+- Tailwind CSS
+- React JS
+- FFmpeg
+- Vercel
+
+<h3>Link to site:</h3>
+
+
+<h3>Screenshare:</h3>
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
