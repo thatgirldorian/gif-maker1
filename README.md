@@ -1,5 +1,5 @@
 # gif-maker
-This is a tool that allows you to upload a video and then convert it to a GIF. It's built with React JS, WASM and the FFmpeg library for video processing. I also used Tailwind CSS for styling the UI. 
+This is a tool that allows you to upload a video and then convert it to a GIF. It's built with React JS, WASM and the FFmpeg library for video processing. I will also use Tailwind CSS for styling the UI. 
 
 
 <h3>Issues faced & resolution:</h3>
